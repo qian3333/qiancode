@@ -5,7 +5,14 @@ server:
 
 app:
   datasource:
-    jdbc-url: jdbc:postgressql://localhost:5432/amigoscodedemo
+    jdbc-url: jdbc:postgresql://localhost:5432/amigoscodedemo
     username: postgres
     password: password
     pool-size: 30
+#
+#spring:
+#  flyway:
+#    default-schema: markov_demo
+#    locations: classpath:db/migration
+#    baseline-on-migrate: true
+
