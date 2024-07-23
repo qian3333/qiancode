@@ -1,0 +1,11 @@
+#spring.application.name=qiancode
+server:
+  servlet:
+    context-path: /api
+
+app:
+  datasource:
+    jdbc-url: jdbc:postgressql://localhost:5432/amigoscodedemo
+    username: postgres
+    password: password
+    pool-size: 30
