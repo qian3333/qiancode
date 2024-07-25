@@ -9,10 +9,5 @@ app:
     username: postgres
     password: password
     pool-size: 30
-#
-#spring:
-#  flyway:
-#    default-schema: markov_demo
-#    locations: classpath:db/migration
-#    baseline-on-migrate: true
+
 
